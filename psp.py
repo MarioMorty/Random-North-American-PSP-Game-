@@ -10,7 +10,7 @@ def randomize_lines(filename):
         lines = [line for line in lines if line]  # Remove empty lines after filtering
         
         if lines:
-            print("Randomly Selected Line:")
+            print("You should play")
             print(random.choice(lines))  # Pick one random line and print it
         else:
             print("Error: No valid lines after filtering.")
